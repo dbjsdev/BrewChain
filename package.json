@@ -1,0 +1,24 @@
+{
+  "name": "brewchain",
+  "version": "1.0.0",
+  "description": "NodeJS Blockchain implementation - Protecting the tea making ledger from unscrupulous colleagues",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbbddb/BrewChain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dbbddb/BrewChain/issues"
+  },
+  "homepage": "https://github.com/dbbddb/BrewChain#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "ws": "^3.3.2"
+  }
+}
