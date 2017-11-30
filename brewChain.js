@@ -7,7 +7,7 @@ const BrewChain = function() {
 
 	function init(){
 		genesisBlock = { 
-			index: 0
+            index: 0
 		  , timestamp: 1511818270000
 		  , data: 'our genesis data'
 		  , previousHash: "-1"

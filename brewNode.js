@@ -91,7 +91,7 @@ const BrewNode = function(port){
 
     const closeConnection = (connection) => {
         console.log('closing connection');
-        brewSockets.slice(brewSockets.indexOf(connection),1);
+        brewSockets.splice(brewSockets.indexOf(connection),1);
     }
 
     const initConnection = (connection) => {
